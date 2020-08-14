@@ -1,20 +1,26 @@
-import { useReducer, useEffect } from "uu5g04-hooks";
+import { useReducer, useEffect, useState } from "uu5g04-hooks";
 import UU5 from "uu5g04";
 import AppReducer from "./AppReducer";
 import Config from "../config/config";
+import Calls from "../calls";
 
 const initialState = {
-  transactions: JSON.parse(localStorage.getItem("transactions")) || []
+  transactions: []
+  // transactions: JSON.parse(localStorage.getItem("transactions")) || []
 };
 
 export const GlobalContext = UU5.Common.Context.create(initialState);
 export const GlobalProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(AppReducer, initialState);
-  const { transactions } = state;
+  const [data, setData] = useState(initialState);
+  const [state, dispatch] = useReducer(AppReducer, data);
+  const { transactions } = data;
 
   useEffect(() => {
-    localStorage.setItem("transactions", JSON.stringify(transactions));
-  }, [transactions]);
+    // localStorage.setItem("transactions", JSON.stringify(transactions));
+    Calls.list().then(result => {
+      setData({ transactions: result.data.itemList });
+    });
+  }, [state]);
 
   const deleteTransaction = id => {
     dispatch({ type: Config.ACTION_TYPE.DELETE_TRANSACTION, payload: id });

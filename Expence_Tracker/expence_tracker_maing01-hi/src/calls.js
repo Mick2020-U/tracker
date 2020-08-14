@@ -66,6 +66,32 @@ let Calls = {
     }
 
     return targetUriStr;
+  },
+  list(dtoIn) {
+    let commandUri = Calls.getCommandUri("transaction/list");
+    return new Promise((resolve, reject) => {
+      Calls.call("get", commandUri, {
+        data: dtoIn,
+        done: data =>
+          resolve({
+            data
+          }),
+        fail: response => reject(response)
+      });
+    });
+  },
+  create(dtoIn) {
+    let commandUri = Calls.getCommandUri("transaction/create");
+    return new Promise((resolve, reject) => {
+      Calls.call("post", commandUri, {
+        data: dtoIn,
+        done: data =>
+          resolve({
+            data
+          }),
+        fail: response => reject(response)
+      });
+    });
   }
 };
 
