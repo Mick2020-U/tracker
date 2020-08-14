@@ -5,7 +5,23 @@ const { DaoFactory, ObjectStoreError } = require("uu_appg01_server").ObjectStore
 const { ValidationHelper } = require("uu_appg01_server").AppServer;
 const Errors = require("../api/errors/transaction-error.js");
 
-const WARNINGS = {};
+const WARNINGS = {
+  create: {
+    createUnsupportedKeys: {
+      code: `${Errors.Create.UC_CODE}unsupportedKeys`
+    }
+  },
+  list: {
+    unsupportedKeys: {
+      code: `${Errors.Create.UC_CODE}unsupportedKeys`
+    }
+  },
+  delete: {
+    unsupportedKeys: {
+      code: `${Errors.Create.UC_CODE}unsupportedKeys`
+    }
+  }
+};
 
 class TransactionAbl {
   constructor() {
@@ -14,6 +30,13 @@ class TransactionAbl {
   }
 
   async delete(awid, dtoIn) {
+    let validationResult = this.validator.validate("transactionDeleteDtoInType", dtoIn);
+    let uuAppErrorMap = ValidationHelper.processValidationResult(
+      dtoIn,
+      validationResult,
+      WARNINGS.delete.unsupportedKeys.code,
+      Errors.Delete.InvalidDtoIn
+    );
     let dtoOut = {};
     try {
       await this.dao.delete(awid, dtoIn.id);
@@ -23,12 +46,19 @@ class TransactionAbl {
       }
       throw e;
     }
+    dtoOut.uuAppErrorMap = uuAppErrorMap;
     return dtoOut;
   }
 
   async create(awid, dtoIn) {
+    let validationResult = this.validator.validate("transactionCreateDtoInType", dtoIn);
+    let uuAppErrorMap = ValidationHelper.processValidationResult(
+      dtoIn,
+      validationResult,
+      WARNINGS.create.createUnsupportedKeys.code,
+      Errors.Create.InvalidDtoIn
+    );
     let dtoOut;
-    let uuAppErrorMap = {};
     try {
       dtoOut = await this.dao.create(dtoIn);
     } catch (e) {
@@ -43,7 +73,13 @@ class TransactionAbl {
 
   async list(awid, dtoIn) {
     let dtoOut;
-    let uuAppErrorMap = {};
+    let validationResult = this.validator.validate("transactionListDtoInType", dtoIn);
+    let uuAppErrorMap = ValidationHelper.processValidationResult(
+      dtoIn,
+      validationResult,
+      WARNINGS.list.unsupportedKeys.code,
+      Errors.List.InvalidDtoIn
+    );
     try {
       dtoOut = await this.dao.list(awid, dtoIn);
     } catch (e) {

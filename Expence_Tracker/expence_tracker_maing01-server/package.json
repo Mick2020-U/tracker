@@ -5,7 +5,8 @@
   "license": "License Commercial",
   "spec": "nodejs-app; uu_appg01@2.2.0",
   "dependencies": {
-    "uu_appg01_server": "^4.6.0"
+    "uu_appg01_server": "^4.6.0",
+    "uu_appg01_workspace-test": "^2.9.1"
   },
   "devDependencies": {
     "uu_appg01_devkit": "^2.2.0",

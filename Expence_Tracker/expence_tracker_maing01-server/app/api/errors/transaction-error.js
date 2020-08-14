@@ -8,8 +8,8 @@ const List = {
   DaoListFailed: class extends TrackerMainUseCaseError {
     constructor() {
       super(...arguments);
-      this.code = `${List.UC_CODE}boatDaoCreateFailed`;
-      this.message = "Create boat by boat Dao create failed.";
+      this.code = `${List.UC_CODE}DaoListFailed`;
+      this.message = " Get List failed.";
     }
   }
 };
@@ -34,7 +34,14 @@ const Create = {
 
 const Delete = {
   UC_CODE: `${TRANSACTION_ERROR_PREFIX}delete/`,
-  
+  InvalidDtoIn: class extends TrackerMainUseCaseError {
+    constructor() {
+      super(...arguments);
+      this.code = `${Create.UC_CODE}invalidDtoIn`;
+      this.message = "DtoIn is not valid.";
+    }
+  },
+
 };
 
 module.exports = {

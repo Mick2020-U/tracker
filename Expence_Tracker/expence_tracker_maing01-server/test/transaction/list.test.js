@@ -15,13 +15,10 @@ afterAll(async () => {
   await TestHelper.teardown();
 });
 
-describe("transaction/delete", () => {
-  test("example 3 test - transaction/create", async () => {
-    let transaction = await TestHelper.executePostCommand("transaction/create", {
-      text: "Not the green eyes",
-      amount: 20
-    });
-    let result = await TestHelper.executePostCommand("transaction/delete", { id: transaction.id });
+describe("transaction/list", () => {
+  test("example 3 test - transaction/list", async () => {
+    let dtoIn = {};
+    let result = await TestHelper.executeGetCommand("transaction/list", dtoIn);
     expect(result.status).toEqual(200);
     expect(result.data).toBeDefined();
     expect(result.data.uuAppErrorMap).toEqual({});
