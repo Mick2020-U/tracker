@@ -23,7 +23,7 @@
       },
       "transaction/delete": {
         "realization": "api/controllers/TransactionController.delete",
-        "httpMethod": "DELETE",
+        "httpMethod": "POST",
         "type": "CMD"
       }
     }

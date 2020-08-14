@@ -17,7 +17,9 @@ body {
 
 }
 
-
+.header {
+  color: firebrick;
+}
 .totalWrapper {
   text-align: center;
 }

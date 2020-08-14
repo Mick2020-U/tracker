@@ -12,7 +12,6 @@ class TransactionMongo extends UuObjectDao {
     return await super.find(query);
   }
   async delete(awid, id) {
-    console.log(id);
     return await super.deleteOne({ id });
   }
 }

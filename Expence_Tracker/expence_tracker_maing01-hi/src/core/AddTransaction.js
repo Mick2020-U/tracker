@@ -31,7 +31,6 @@ const AddTransaction = createVisualComponent({
     //@@viewOn:render
     return (
       <UU5.Forms.Form onSave={onSubmit}>
-        <h3>Add new Expense</h3>
         <div className="form-control">
           <label htmlFor="text">Expense name</label>
           <input
@@ -52,7 +51,7 @@ const AddTransaction = createVisualComponent({
             placeholder="Enter price..."
           />
         </div>
-        <button className="btn">Add Activity</button>
+        <button className="btn">Add Expense</button>
       </UU5.Forms.Form>
     );
     //@@viewOff:render

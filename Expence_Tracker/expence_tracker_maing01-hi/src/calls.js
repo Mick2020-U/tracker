@@ -92,6 +92,19 @@ let Calls = {
         fail: response => reject(response)
       });
     });
+  },
+  delete(dtoIn) {
+    let commandUri = Calls.getCommandUri("transaction/delete");
+    return new Promise((resolve, reject) => {
+      Calls.call("post", commandUri, {
+        data: dtoIn,
+        done: data =>
+          resolve({
+            data
+          }),
+        fail: response => reject(response)
+      });
+    });
   }
 };
 
