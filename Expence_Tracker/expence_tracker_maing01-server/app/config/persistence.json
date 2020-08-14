@@ -6,6 +6,9 @@
       "schemaMap": {
         "trackerMain": {
           "realization": "dao/TrackerMainMongo"
+        },
+        "transaction": {
+          "realization": "dao/TransactionMongo"
         }
       }
     }

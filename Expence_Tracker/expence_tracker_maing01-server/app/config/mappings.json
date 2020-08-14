@@ -10,6 +10,21 @@
         "realization": "index.html",
         "httpMethod": "GET",
         "type": "UVE"
+      },
+      "transaction/list": {
+        "realization": "api/controllers/TransactionController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "transaction/create": {
+        "realization": "api/controllers/TransactionController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "transaction/delete": {
+        "realization": "api/controllers/TransactionController.delete",
+        "httpMethod": "DELETE",
+        "type": "CMD"
       }
     }
   }
