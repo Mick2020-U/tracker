@@ -23,6 +23,13 @@ const WARNINGS = {
   }
 };
 
+const DEFAULTS = {
+  sortBy: "text",
+  order: "asc",
+  pageIndex: 0,
+  pageSize: 5
+};
+
 class TransactionAbl {
   constructor() {
     this.validator = new Validator(Path.join(__dirname, "..", "api", "validation_types", "transaction-types.js"));
@@ -80,8 +87,15 @@ class TransactionAbl {
       WARNINGS.list.unsupportedKeys.code,
       Errors.List.InvalidDtoIn
     );
+    if (!dtoIn.sortBy) dtoIn.sortBy = DEFAULTS.sortBy;
+    if (!dtoIn.order) dtoIn.order = DEFAULTS.order;
+    if (!dtoIn.pageInfo) dtoIn.pageInfo = {};
+    if (!dtoIn.pageInfo.pageSize) dtoIn.pageInfo.pageSize = DEFAULTS.pageSize;
+    if (!dtoIn.pageInfo.pageIndex) dtoIn.pageInfo.pageIndex = DEFAULTS.pageIndex;
+
     try {
-      dtoOut = await this.dao.list(awid, dtoIn);
+      dtoOut = await this.dao.list(awid, dtoIn.sortBy, dtoIn.order, dtoIn.pageInfo);
+      // dtoOut = await this.dao.list(awid, dtoIn);
     } catch (e) {
       if (e instanceof ObjectStoreError) {
         throw new Errors.List.DaoListFailed({ uuAppErrorMap }, e);

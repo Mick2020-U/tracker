@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9080ab4-16ae-42ab-abe9-a2c746241f25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tracker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/LanguageLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/UseLevel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/UseSession.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/use-paging-list-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/useDataList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/context/GlobalState.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/context/GlobalState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/AddTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/AddTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/TransactionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/TransactionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/spa-authenticated.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/spa-authenticated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/routes/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/abl/transaction-abl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/abl/transaction-abl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/dao/transaction-mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/dao/transaction-mongo.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gGLLPNVFwulWOICSEypHTrO7Bu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uu_jokes_maing01-nodejs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="--inspect=9229" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9080ab4-16ae-42ab-abe9-a2c746241f25" name="Default Changelist" comment="" />
+      <created>1597735926676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597735926676</updated>
+      <workItem from="1597735927846" duration="39000" />
+      <workItem from="1597819868398" duration="6637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597824660111">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="418" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824660111" />
+    <state x="743" y="274" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597824733758">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="743" y="274" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824733758" />
+    <state width="1897" height="133" key="GridCell.Tab.0.bottom" timestamp="1597826600982">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state width="1897" height="133" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
+    <state width="1897" height="133" key="GridCell.Tab.0.center" timestamp="1597826600982">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state width="1897" height="133" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
+    <state width="1897" height="133" key="GridCell.Tab.0.left" timestamp="1597826600982">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state width="1897" height="133" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
+    <state width="1897" height="133" key="GridCell.Tab.0.right" timestamp="1597826600982">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state width="1897" height="133" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1597820300932">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1597820300932" />
+    <state x="652" y="262" width="1068" height="554" key="find.popup" timestamp="1597824478825">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="652" y="262" width="1068" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824478825" />
+    <state x="2572" y="252" width="1068" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1597820590151" />
+    <state x="2544" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1597820303422">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="172" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1597820303422" />
+  </component>
+</project>

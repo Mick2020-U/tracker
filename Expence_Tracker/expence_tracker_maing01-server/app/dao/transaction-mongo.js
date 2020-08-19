@@ -8,8 +8,11 @@ class TransactionMongo extends UuObjectDao {
   async create(uuObject) {
     return await super.insertOne(uuObject);
   }
-  async list(awid, query = {}) {
-    return await super.find(query);
+  async list(awid, sortBy, order, pageInfo) {
+    let sort = {
+      [sortBy]: order === "asc" ? 1 : -1
+    };
+    return await super.find({}, pageInfo, sort);
   }
   async delete(awid, id) {
     return await super.deleteOne({ id });

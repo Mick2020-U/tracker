@@ -1,5 +1,5 @@
 //@@viewOn:imports
-import { createVisualComponent, useState, useContext } from "uu5g04-hooks";
+import { createVisualComponent, useState, useContext, useLsi } from "uu5g04-hooks";
 import "uu5g04-bricks";
 import UU5 from "uu5g04";
 import { GlobalContext } from "../context/GlobalState";
@@ -9,6 +9,12 @@ const AddTransaction = createVisualComponent({
   //@@viewOn:statics
   displayName: "UU5.Demo.AddTransaction",
   nestingLevel: "box",
+  propTypes: {
+    lsi: UU5.PropTypes.object
+  },
+  defaultProps: {
+    lsi: {}
+  },
   //@@viewOff:statics
 
   render() {
@@ -17,6 +23,13 @@ const AddTransaction = createVisualComponent({
     const [amount, setAmount] = useState(0);
     //@@viewOff:hooks
     const { addTransaction } = useContext(GlobalContext);
+    const expense = useLsi({ cs: "Zadejte výdaje", en: "Enter expense" });
+    const price = useLsi({ cs: "Zadejte cenu", en: "Enter price" });
+    const addExpense = useLsi({ cs: "Přidat výdaje", en: "Add Expense" });
+    const inputLsi = useLsi({
+      cs: { placeholder: "Zadejte výdaje", message: "Vložte jméno a příjmení." },
+      en: { placeholder: "Enter expense", message: "Insert name and surname." }
+    });
 
     const onSubmit = () => {
       const newTransaction = {
@@ -31,18 +44,21 @@ const AddTransaction = createVisualComponent({
     //@@viewOn:render
     return (
       <UU5.Forms.Form onSave={onSubmit}>
+        <UU5.Bricks.LanguageSelector displayedLanguages={["en", "cs"]} />
         <div className="form-control">
-          <label htmlFor="text">Expense name</label>
+          <label htmlFor="text">{expense}</label>
           <input
             type="text"
             required={true}
             value={text}
             onChange={e => setText(e.target.value)}
-            placeholder="Enter Expense..."
+            label={expense}
+            placeholder={inputLsi.placeholder}
           />
+          {/*<input label={item} placeholder={inputLsi.placeholder} message={inputLsi.message} />*/}
         </div>
         <div className="form-control">
-          <label htmlFor="amount">Price</label>
+          <label htmlFor="amount">{price}</label>
           <input
             required={true}
             type="number"
@@ -51,7 +67,7 @@ const AddTransaction = createVisualComponent({
             placeholder="Enter price..."
           />
         </div>
-        <button className="btn">Add Expense</button>
+        <button className="btn">{addExpense}</button>
       </UU5.Forms.Form>
     );
     //@@viewOff:render

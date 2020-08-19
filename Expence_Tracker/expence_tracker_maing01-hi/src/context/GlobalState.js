@@ -1,4 +1,4 @@
-import { useReducer, useEffect, useState } from "uu5g04-hooks";
+import { useReducer, useEffect, useLayoutEffect, useState } from "uu5g04-hooks";
 import UU5 from "uu5g04";
 import AppReducer from "./AppReducer";
 import Config from "../config/config";
@@ -15,7 +15,7 @@ export const GlobalProvider = ({ children }) => {
   const [state, dispatch] = useReducer(AppReducer, data);
   const { transactions } = data;
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     // localStorage.setItem("transactions", JSON.stringify(transactions));
     Calls.list().then(result => {
       setData({ transactions: result.data.itemList });
