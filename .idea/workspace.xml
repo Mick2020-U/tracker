@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9080ab4-16ae-42ab-abe9-a2c746241f25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/LanguageLabel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/UseLevel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/UseSession.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/use-paging-list-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/useDataList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/context/GlobalState.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/context/GlobalState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/AddTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/AddTransaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/TransactionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/TransactionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/spa-authenticated.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/core/spa-authenticated.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/routes/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/abl/transaction-abl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/abl/transaction-abl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/dao/transaction-mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server/app/dao/transaction-mongo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597735926676</updated>
       <workItem from="1597735927846" duration="39000" />
-      <workItem from="1597819868398" duration="6637000" />
+      <workItem from="1597819868398" duration="7364000" />
     </task>
     <servers />
   </component>
@@ -87,22 +71,22 @@
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
     <state x="743" y="274" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824733758" />
-    <state width="1897" height="133" key="GridCell.Tab.0.bottom" timestamp="1597826600982">
+    <state width="1897" height="72" key="GridCell.Tab.0.bottom" timestamp="1597828913195">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="133" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
-    <state width="1897" height="133" key="GridCell.Tab.0.center" timestamp="1597826600982">
+    <state width="1897" height="72" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913195" />
+    <state width="1897" height="72" key="GridCell.Tab.0.center" timestamp="1597828913195">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="133" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
-    <state width="1897" height="133" key="GridCell.Tab.0.left" timestamp="1597826600982">
+    <state width="1897" height="72" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913195" />
+    <state width="1897" height="72" key="GridCell.Tab.0.left" timestamp="1597828913194">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="133" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
-    <state width="1897" height="133" key="GridCell.Tab.0.right" timestamp="1597826600982">
+    <state width="1897" height="72" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913194" />
+    <state width="1897" height="72" key="GridCell.Tab.0.right" timestamp="1597828913195">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="133" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597826600982" />
+    <state width="1897" height="72" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913195" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1597820300932">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
