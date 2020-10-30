@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a9080ab4-16ae-42ab-abe9-a2c746241f25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/env/development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/env/development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-hi/src/routes/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +32,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uu_jokes_maing01-nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="--inspect=9229" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/Expence_Tracker/expence_tracker_maing01-server">
@@ -56,6 +59,16 @@
       <updated>1597735926676</updated>
       <workItem from="1597735927846" duration="39000" />
       <workItem from="1597819868398" duration="7364000" />
+      <workItem from="1599813371417" duration="8462000" />
+      <workItem from="1600092411797" duration="495000" />
+      <workItem from="1600322772601" duration="11000" />
+      <workItem from="1600326078369" duration="606000" />
+      <workItem from="1600678564519" duration="536000" />
+      <workItem from="1600679138834" duration="1242000" />
+      <workItem from="1600690364713" duration="290000" />
+      <workItem from="1601285852534" duration="1430000" />
+      <workItem from="1603440327106" duration="79000" />
+      <workItem from="1603706113898" duration="665000" />
     </task>
     <servers />
   </component>
@@ -67,38 +80,45 @@
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
     <state x="418" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824660111" />
-    <state x="743" y="274" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597824733758">
+    <state x="704" y="226" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600681219348">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state x="743" y="274" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824733758" />
-    <state width="1897" height="72" key="GridCell.Tab.0.bottom" timestamp="1597828913195">
+    <state x="704" y="226" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1600681219348" />
+    <state x="2663" y="265" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1599823376488" />
+    <state width="1897" height="140" key="GridCell.Tab.0.bottom" timestamp="1600679101610">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="72" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913195" />
-    <state width="1897" height="72" key="GridCell.Tab.0.center" timestamp="1597828913195">
+    <state width="1897" height="140" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1600679101610" />
+    <state width="1897" height="140" key="GridCell.Tab.0.center" timestamp="1600679101610">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="72" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913195" />
-    <state width="1897" height="72" key="GridCell.Tab.0.left" timestamp="1597828913194">
+    <state width="1897" height="140" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1600679101610" />
+    <state width="1897" height="140" key="GridCell.Tab.0.left" timestamp="1600679101610">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="72" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913194" />
-    <state width="1897" height="72" key="GridCell.Tab.0.right" timestamp="1597828913195">
+    <state width="1897" height="140" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1600679101610" />
+    <state width="1897" height="140" key="GridCell.Tab.0.right" timestamp="1600679101610">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state width="1897" height="72" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597828913195" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1597820300932">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1897" height="140" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1600679101610" />
+    <state width="498" height="416" key="SwitcherDM" timestamp="1599815344711">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
+    <state width="498" height="416" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1599815344711" />
     <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1597820300932" />
-    <state x="652" y="262" width="1068" height="554" key="find.popup" timestamp="1597824478825">
-      <screen x="0" y="27" width="1920" height="1005" />
-    </state>
-    <state x="652" y="262" width="1068" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1597824478825" />
-    <state x="2572" y="252" width="1068" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1597820590151" />
-    <state x="2544" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1597820303422">
+    <state x="2572" y="252" width="1068" height="554" key="find.popup" timestamp="1603706127144">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="652" y="262" width="1068" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1600690457661" />
+    <state x="2572" y="252" width="1068" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1603706127144" />
+    <state x="624" y="187" width="672" height="630" key="search.everywhere.popup" timestamp="1599815347474">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="624" y="187" width="672" height="630" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1599815347474" />
     <state x="2544" y="172" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1005@1920.0.1920.1080" timestamp="1597820303422" />
+    <state x="685" y="423" width="540" height="193" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599050498223">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="685" y="423" width="540" height="193" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1005@0.27.1920.1005" timestamp="1599050498223" />
   </component>
 </project>
